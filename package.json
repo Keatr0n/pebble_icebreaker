@@ -1,0 +1,45 @@
+{
+  "author": "keatr0n",
+  "keywords": [
+    "pebble-app"
+  ],
+  "name": "pebble-icebreaker",
+  "pebble": {
+    "displayName": "Icebreaker",
+    "projectType": "native",
+    "resources": {
+      "media": [
+        {
+          "file": "images/menu_icon.png",
+          "menuIcon": true,
+          "name": "MENU_ICON",
+          "targetPlatforms": null,
+          "type": "bitmap"
+        },
+        {
+          "characterRegex": "[A-Z0-9 :/.%!+#<>-]",
+          "file": "fonts/ChakraPetch-SemiBold.ttf",
+          "name": "FONT_CHAKRA_16",
+          "targetPlatforms": null,
+          "type": "font"
+        },
+        {
+          "characterRegex": "[A-Z0-9 !+x-]",
+          "file": "fonts/ChakraPetch-SemiBold.ttf",
+          "name": "FONT_CHAKRA_30",
+          "targetPlatforms": null,
+          "type": "font"
+        }
+      ]
+    },
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "uuid": "9431cdeb-b732-4f4f-9b97-4afe4c7b8156",
+    "watchapp": {
+      "watchface": false
+    }
+  },
+  "version": "1.0.0"
+}
